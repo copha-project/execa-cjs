@@ -1,0 +1,40 @@
+{
+	"name": "@copha/execa",
+	"version": "0.0.1",
+	"description": "Process execution for humans",
+	"license": "MIT",
+	"repository": "copha-project/execa-cjs",
+	"funding": "https://github.com/copha-project/execa-cjs",
+	"author": {
+		"name": "copha",
+		"email": "contacts@copha.net"
+	},
+	"scripts": {
+		"test": "node ./test/index.js"
+	},
+	"keywords": [
+		"exec",
+		"child",
+		"process",
+		"execute",
+		"fork",
+		"execfile",
+		"spawn",
+		"file",
+		"shell",
+		"bin",
+		"binary",
+		"binaries",
+		"npm",
+		"path",
+		"local"
+	],
+	"dependencies": {
+		"cross-spawn": "^7.0.3",
+		"get-stream": "^6.0.1",
+		"merge-stream": "^2.0.0",
+		"signal-exit": "^3.0.7"
+	},
+	"devDependencies": {
+	}
+}

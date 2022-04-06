@@ -1,6 +1,27 @@
 # execa for CommonJS
 
-<img src="media/logo.svg" width="400">
+## Install
+```sh
+yarn add @copha/execa
+npm install @copha/execa
+```
+## Usage
+
+```js
+const {execa} = require('@copha/execa');
+
+const {stdout} = await execa('echo', ['unicorns']);
+console.log(stdout);
+//=> 'unicorns'
+```
+
+## From esm version
+[execa v6.1.0](https://github.com/sindresorhus/execa)
+
+
+### -------------------------------
+
+<img src="https://raw.githubusercontent.com/sindresorhus/execa/main/media/logo.svg" width="400">
 <br>
 
 [![Coverage Status](https://codecov.io/gh/sindresorhus/execa/branch/main/graph/badge.svg)](https://codecov.io/gh/sindresorhus/execa)
